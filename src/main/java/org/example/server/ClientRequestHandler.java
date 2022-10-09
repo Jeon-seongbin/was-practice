@@ -23,7 +23,6 @@ public class ClientRequestHandler implements Runnable {
     @Override
     public void run() {
         logger.info("[ClientRequestHandler] new client {} was started.", Thread.currentThread().getName());
-        System.out.println("[ClientRequestHandler] new client {} was started.");
         try (InputStream in = clientSocket.getInputStream();
              OutputStream out = clientSocket.getOutputStream()) {
             BufferedReader br = new BufferedReader(new InputStreamReader(in, StandardCharsets.UTF_8));

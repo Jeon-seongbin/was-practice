@@ -1,0 +1,1 @@
+GET http://localhost:8081/calculator?operand1=11&operator=*&operand2=22

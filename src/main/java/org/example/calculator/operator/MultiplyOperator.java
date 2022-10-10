@@ -5,7 +5,7 @@ import org.example.calculator.NewArithmeticOperator;
 
 public class MultiplyOperator implements NewArithmeticOperator {
     @Override
-    public boolean surpports(String operator) {
+    public boolean supports(String operator) {
         return "*".equals(operator);
     }
 

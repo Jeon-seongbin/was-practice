@@ -4,7 +4,7 @@ import org.example.calculator.NewArithmeticOperator;
 
 public class SubtractionOperator implements NewArithmeticOperator {
     @Override
-    public boolean surpports(String operator) {
+    public boolean supports(String operator) {
         return "-".equals(operator);
     }
 
